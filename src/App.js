@@ -1,23 +1,22 @@
-import logo from './logo.svg';
+// Install Dependencies ✅
+// Import Dependencies ✅
+// Setup webcam and canvas ✅
+// Define refrences to those ✅
+// Load Facemesh ✅
+// Detect Function ✅
+// Drawing Utilities ✅
+// Load Triangulation ✅
+// Setup Triangle Path ✅
+// Setup Point Drawing ✅
+// Add Drawmesh to detect Function ✅
+
 import './App.css';
+import MainCoponent from './Components/MainComponent';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <MainCoponent/>
     </div>
   );
 }
